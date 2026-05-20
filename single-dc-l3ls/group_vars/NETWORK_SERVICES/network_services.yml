@@ -11,5 +11,7 @@ tenants:
         name: SAP_HANA
       - id: 3402
         name: ORACLE_EXADATA
+        trunk_groups:
+          - database_servers
       - id: 3403
         name: ORACLE_RAC
