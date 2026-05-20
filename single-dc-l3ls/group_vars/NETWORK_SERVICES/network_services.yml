@@ -15,3 +15,5 @@ tenants:
           - database_servers
       - id: 3403
         name: ORACLE_RAC
+        trunk_group:
+          - database_servers
